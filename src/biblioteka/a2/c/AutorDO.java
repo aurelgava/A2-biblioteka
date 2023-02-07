@@ -12,7 +12,7 @@ package biblioteka.a2.c;
 public class AutorDO {
     public int ID;
     public String ime,prezime;
-
+    
     public AutorDO(int ID, String ime, String prezime) {
         this.ID = ID;
         this.ime = ime;
