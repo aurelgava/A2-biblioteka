@@ -50,6 +50,7 @@ public class AnalizaProzor extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Statistika");
 
         jLabel1.setText("U periodu od");
 

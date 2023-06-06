@@ -53,6 +53,7 @@ public class GlavniProzor extends javax.swing.JFrame {
         jTable1 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Autori");
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resursi/graphic.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -268,7 +269,7 @@ public class GlavniProzor extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        
+        new OAplikacijiProzor().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
